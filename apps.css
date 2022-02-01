@@ -1,0 +1,123 @@
+.first-page{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+}
+
+.first-page{
+      background-color: #ffb3c1;
+      width: 100%;    
+}
+
+.inro{
+      font-size: 2.5rem;
+      font-weight: 600;
+      font-family: 'Sacramento', cursive;
+      text-align: center;
+
+}
+
+#profile-1{
+      height: 200px;
+      font-weight: 200px;
+      justify-content: center;
+      align-items: center;    
+}
+#profile-image{
+      display: flex;
+ 
+}
+/* hr{
+      border-style: dotted;
+      width: 30%;
+} */
+#hrr{
+      border:3px solid red;
+      width: 70%;
+}
+/* hr{
+      border: dotted #EAF6F6 6px;
+      border-bottom: none;
+      width: 4%;
+      margin: 100px auto;
+} */
+.icon{
+      height:22px;
+      width:22px;
+}
+label{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 0.85rem;
+}
+#logo{
+      font-weight: 600 ;
+      color:#ffb3c1;
+      font-family: 'Oswald', sans-serif;
+}
+#logo span{
+      color:green;
+      
+}
+.navbar-brand{
+      color:#ffb3c1;
+      position: -webkit-sticky;
+position: sticky;
+top: 20px;
+}
+
+
+/*for gallery*/
+/* div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+      margin: auto;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .gallery-pic{
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px 25px;
+      width:100%;
+      max-width: 960px;
+      text-align: center;
+      text-transform: uppercase;
+    } */
+
+    .gallery-pic{
+            background-color: #ffb3c1;
+            /* width: 100%; */
+            /* min-height: 100vh; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            /* align-items: center; */
+
+    }
+    .gallery{
+          height: 250px;
+          width: 250px;
+          /* margin: 0; */
+    }
+    .gallery img{
+          height: 250px;
+          width: 250px;
+    }
