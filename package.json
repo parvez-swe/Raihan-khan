@@ -1,0 +1,23 @@
+{
+  "name": "raihan-khan",
+  "version": "1.0.0",
+  "description": "A portfolio Website for my friend...",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./css/style.css -o ./css/tailwind.css -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parvez2m/Raihan-khan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parvez2m/Raihan-khan/issues"
+  },
+  "homepage": "https://github.com/parvez2m/Raihan-khan#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
