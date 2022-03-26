@@ -1,6 +1,7 @@
 const imageDiv = document.querySelector('.gallery-pic');
 const h1 = document.createElement('h1');
 h1.innerHTML='Hi'
+const h1pen = document.querySelector('h1');
 imageDiv.appendChild(h1);
 const baseUrl = '/Gallery/';
 for(let i =1 ; i <= 22 ; i++){
