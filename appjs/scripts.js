@@ -1,6 +1,6 @@
 const imageDiv = document.querySelector('.gallery-pic');
 const h1 = document.createElement('h1');
-h1.innerHTML='Hi'
+h1.innerHTML="Hey, It's my gallery!"
 const h1pen = document.querySelector('h1');
 imageDiv.appendChild(h1);
 const baseUrl = '/Gallery/';
